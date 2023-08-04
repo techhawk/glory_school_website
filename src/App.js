@@ -19,7 +19,6 @@ function App() {
       {/*----------------------------- Browser Router Section ----------------------*/}
       <BrowserRouter>
         <div className="App">
-          Always Change React packg
           {/*----------------------------- Header Section ----------------------*/}
           <div className='header'>
             <HeaderComponent />

@@ -46,7 +46,8 @@
   --tp-text-2: #0C0808;
   --tp-theme-primary: #020626;
   --tp-theme-secondary: #05DAC3;
-  --tp-bg-primary: #F3FBFE;
+  --tp-bg-primary: #002147;
+  --tp-bg-secondary: #fdc800;
   --tp-border-primary: #000;
   --tp-border-secondary: #000;
 }
@@ -63,6 +64,163 @@ body {
 
 /* --------------------------------------- Aarif Csss ---------------------------------------------*/
 
+/* /////////////////HEADER//////////////////// */
+
+
+.header-content{
+  background-color: var(--tp-bg-primary);
+}
+
+.header-container{
+  width: 100%;
+  height: 83px;
+  margin: 0 50px;
+}
+
+.school-logo{
+width: 55px;
+height: 55px;
+}
+
+.school-logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.school-logo h2{
+  font-size: 17px;
+  margin: 0;
+  font-weight: 700;
+  color: var(--tp-common-white);
+  padding-left: 10px;
+}
+
+.navbar ul{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: var(--tp-common-white);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-weight: 700;
+  transition: .5s;
+}
+
+.active a{
+  color: var(--tp-bg-secondary);
+}
+
+.navbar ul li a:hover{
+  color: var(--tp-bg-secondary);
+}
+
+
+.primary-btn button{
+  border: none;
+  background: var(--tp-bg-secondary);
+  width: 104px;
+    height: 38px;
+    transition: .5s;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.primary-btn button:hover{
+  background-color: var(--tp-bg-primary);
+  border: 2px solid var(--tp-bg-secondary);
+  color: var(--tp-common-white);
+}
+
+/* /Responsive-header */
+
+.responsive-header{
+  width: 100%;
+  background-color: var(--tp-common-white);
+  padding: 0 10px;
+  display: none;
+}
+
+.resp-head h2{
+  color: var(--tp-bg-primary);
+}
+
+.hamburger img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.hamburger{
+  width: 35px;
+    height: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .responsive-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .school-logo{
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-content {
+    display: none;
+  }
+}
+
+
+
+
+/* ////////////HOME PAGE///////////////// */
+
+.banner-images{
+  width: 100%;
+  height: 578px;
+}
+
+.banner-text h3{
+font-size: 55px;
+}
+
+.banner-text p{
+
+}
+
+.add-btn{
+    height: 51px;
+}
+
+.add-btn button{
+  width: 162px;
+  height: 100%;
+  border: none;
+  background-color: var(--tp-bg-primary);
+  color: var(--tp-common-white);
+  font-weight: 600;
+  font-size: 15px;
+  transition: .5s;
+}
+
+.add-btn button:hover{
+  background-color: var(--tp-bg-secondary);
+  color: var(--tp-common-black);
+}
 
 
 
@@ -74,27 +232,14 @@ body {
 
 
 
+/* ////////////////CRISSFOOD//////////// */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.crissfood{
+  background-image: url('../../assets/Desktop.jpg');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
 
 
 
