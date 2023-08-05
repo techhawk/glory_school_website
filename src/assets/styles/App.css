@@ -122,4 +122,690 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------------------------- Mazz Csss ---------------------------------------------*/
+
+/* /////------------------------------------ABOUT US-------------------------------------------------------------/// */
+
+.what-study-image{
+  width: 558px;
+  height: 358px;
+}
+
+.what-study-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.what-type h2{
+  color: #002147;
+  font-weight: bold;
+}
+
+
+.what-type p{
+  color: #444444;
+  margin-top: 15px;
+}
+
+.certificate-image{
+  width: 233px;
+  height: 166px;
+  margin: 10px;
+}
+
+.certificate-image img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* ///////////////-----------------OUR SKILL LECTURERS----------------------------/////////////////// */
+
+.lecture-soical-contact{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+
+.our-lecture-card{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lecture-soical-contact img{
+  width: 30px;
+  height: 30px;
+}
+
+
+.lecture-info h2{
+  color: #001940;
+  margin-top: 10px;
+ 
+}
+
+.lecture-image{
+  width: 263px;
+  height: 272px;
+  overflow: hidden;
+}
+
+.topic-lecture{
+  color: #001940;
+}
+
+.lecture-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .5s;
+}
+
+.lecture-image img:hover{
+  transform: scale(1.20);
+}
+
+/* /////-----------------------------------FOOTER---------------------------------------///// */
+
+.footer-part{
+  background-color: #002147;
+  color: white !important;
+}
+
+.head-academics{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.head-academics img{
+   width: 40px;
+   height: 40px;
+}
+
+.socail-contact-footer{
+  width: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.socail-contact-footer img{
+  width: 100%;
+  height: 100%;
+}
+
+.featured-all-link{
+  width: 100%;
+  display: flex;
+}
+
+.featured-all-link ul{
+  padding-left: 0;
+  margin-left: 15px;
+  list-style-type:disclosure-closed;
+}
+
+.featured-all-link ul li a{
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+
+.info-phone{
+  width: 100%;
+}
+
+.info-phone img{
+  width: 35px;
+  height: 35px;
+}
+
+.info-phone a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.info-msg{
+  width: 100%;
+  gap: 10px;
+  display: flex;
+}
+
+.info-msg img{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.info-msg a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.enter-email-info{
+  width: 100%;
+  display: flex;
+ padding-top: 10px;
+}
+
+.enter-email-info button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  padding: 0;
+  background-color: #001940;
+}
+
+.enter-email-info button img{
+  width: 30px;
+  height: 30px;
+}
+
+.enter-email-info input{
+  width: 217px;
+  height: 40px;
+  border: none;
+  background-color: #001940;
+}
+
+.flicks-image{
+  width: 85px;
+  height: 75px;
+  margin-top: 10px;
+}
+
+.flicks-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.online-card{
+  width: 30px;
+  height: 25px;
+  display: flex;
+  gap: 5px;
+}
+
+.online-card img{
+  width: 100%;
+  height: 100%;
+}
+
+.reversed-part{
+  width: 100%;
+  height: 61px;
+  display: flex;
+  gap: 500px;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.design-by p{
+  color: white;
+}
+
+.footer-bottom{
+  background-color: #001a39;
+}

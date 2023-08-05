@@ -7,6 +7,7 @@ import ServicesPage from "./pages/ServicesPage";
 import AboutUsPage from "./pages/AboutUsPage";
 import ContactUsPage from "./pages/ContactUsPage";
 import HeaderComponent from "./components/HeaderComponent";
+import FooterComponent from "./components/FooterComponent";
 
 
 
@@ -19,7 +20,7 @@ function App() {
       {/*----------------------------- Browser Router Section ----------------------*/}
       <BrowserRouter>
         <div className="App">
-          Always Change React packg
+      
           {/*----------------------------- Header Section ----------------------*/}
           <div className='header'>
             <HeaderComponent />
@@ -35,6 +36,10 @@ function App() {
               <Route path='/about' element={<AboutUsPage />} />
               <Route path='/contact' element={<ContactUsPage />} />
             </Routes>
+          </div>
+       {/* //-----------------FOOTER---------------------------/// */}
+          <div className="footer-components">
+                <FooterComponent></FooterComponent>
           </div>
         </div>
       </BrowserRouter>
