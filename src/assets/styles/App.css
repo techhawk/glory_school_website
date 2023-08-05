@@ -46,7 +46,8 @@
   --tp-text-2: #0C0808;
   --tp-theme-primary: #020626;
   --tp-theme-secondary: #05DAC3;
-  --tp-bg-primary: #F3FBFE;
+  --tp-bg-primary: #002147;
+  --tp-bg-secondary: #fdc800;
   --tp-border-primary: #000;
   --tp-border-secondary: #000;
 }
@@ -63,6 +64,222 @@ body {
 
 /* --------------------------------------- Aarif Csss ---------------------------------------------*/
 
+/* /////////////////HEADER//////////////////// */
+
+
+.header-content{
+  background-color: var(--tp-bg-primary);
+}
+
+.header-container{
+  width: 100%;
+  height: 83px;
+  margin: 0 50px;
+}
+
+.school-logo{
+width: 55px;
+height: 55px;
+}
+
+.school-logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.school-logo h2{
+  font-size: 17px;
+  margin: 0;
+  font-weight: 700;
+  color: var(--tp-common-white);
+  padding-left: 10px;
+}
+
+.navbar ul{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: var(--tp-common-white);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-weight: 700;
+  transition: .5s;
+}
+
+.active a{
+  color: var(--tp-bg-secondary);
+}
+
+.navbar ul li a:hover{
+  color: var(--tp-bg-secondary);
+}
+
+
+.primary-btn button{
+  border: none;
+  background: var(--tp-bg-secondary);
+  width: 104px;
+    height: 38px;
+    transition: .5s;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.primary-btn button:hover{
+  background-color: var(--tp-bg-primary);
+  border: 2px solid var(--tp-bg-secondary);
+  color: var(--tp-common-white);
+}
+
+/* /Responsive-header */
+
+.responsive-header{
+  width: 100%;
+  background-color: var(--tp-common-white);
+  padding: 0 10px;
+  display: none;
+}
+
+.resp-head h2{
+  color: var(--tp-bg-primary);
+}
+
+.hamburger img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.hamburger{
+  width: 35px;
+    height: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .responsive-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .school-logo{
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-content {
+    display: none;
+  }
+}
+
+
+
+
+/* ////////////HOME PAGE///////////////// */
+
+.banner-images{
+  width: 100%;
+  height: 578px;
+}
+
+.banner-text h3{
+font-size: 55px;
+}
+
+.banner-text p{
+
+}
+
+.add-btn{
+    height: 51px;
+}
+
+.add-btn button{
+  width: 162px;
+  height: 100%;
+  border: none;
+  background-color: var(--tp-bg-primary);
+  color: var(--tp-common-white);
+  font-weight: 600;
+  font-size: 15px;
+  transition: .5s;
+}
+
+.add-btn button:hover{
+  background-color: var(--tp-bg-secondary);
+  color: var(--tp-common-black);
+}
+
+.heading h2{
+  color: var(--tp-bg-primary);
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.heading p{
+  font-family: sans-serif;
+
+}
+
+.school-video{
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets//images/BannerImages/videoBackgroundImage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.school-video::before{
+  content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    background-color: rgba(0, 33, 71, 0.88);
+    height: 100%;
+    width: 100%;
+}
+
+.video-title h2{
+  color: var(--tp-common-white);
+  font-family: sans-serif;
+  font-size: 36px;
+}
+
+.video-title p{
+  color: #a3bed5;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+
+.play-btn{
+  /* width: 70px; */
+  height: 70px
+}
+.play-btn button{
+  width: 70px;
+  height: 100%;
+}
+
+.play-btn button a{
+  color: var(--tp-bg-secondary);
+}
 
 
 
@@ -70,31 +287,170 @@ body {
 
 
 
+/* ////////////////////////////ContactPage.///////////////// */
+
+.contact-banner{
+  width: 100%;
+  height: 300px;
+  background-image: url('../../assets/images/BannerImages/videoBackgroundImage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contact-banner::before{
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  background-color: rgba(0, 33, 71, 0.88);    background-color: #00000085;
+  height: 100%;
+  width: 100%;
+}
+
+.contact-title{
+  position: relative;
+  text-align: left;
+}
+
+.contact-title h2{
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 48px;
+  color: var(--tp-common-white);
+}
+
+.contact-title ul{
+  list-style: none;
+  display: flex;
+  color: var(--tp-common-white);
+  gap: 5px;
+  padding: 0;
+}
+.contact-title ul li a{
+  text-decoration: none;
+  color: var(--tp-bg-secondary);
+  padding-right: 5px;
+}
+
+.head-title h2{
+  color: var(--tp-bg-primary);
+  font-weight: 500;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.head-title h2::after{
+  content: '';
+  height: 3px;
+  width: 40px;
+  background: var(--tp-bg-secondary);
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  z-index: 1;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.address{
+    border: 1px solid #0000001f;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.address span{
+  font-size: 17px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.cell{
+  border: 1px solid #0000001f;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.cell span{
+  font-size: 17px;
+  font-weight: 400;
+  font-family: sans-serif;
+
+}
+
+.mail{
+    border: 1px solid #0000001f;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.mail span{
+  font-size: 17px;
+  font-weight: 400;
+  font-family: sans-serif;
+
+}
+
+.color-yellow{
+  color: var(--tp-bg-secondary);
+}
+
+.form-field{
+  height: 45px;
+}
+
+.form-field input {
+  outline: none;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.form-field input::placeholder{
+  padding-left: 10px;
+}
+
+.msg-field textarea{
+  outline: none;
+  border: none;
+  background-color: #f1f1f1;
+  color: var();
+}
+
+.msg-field textarea::placeholder{
+  padding-left: 10px;
+
+}
+.google-map-area{
+  width: 100%;
+  height: 400px;
+}
+
+.google-map-area iframe{
+  width: 100%;
+  height: 100%;
+}
 
 
 
+/* ////////////////CRISSFOOD//////////// */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.crissfood{
+  background-image: url('../../assets/Desktop.jpg');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
 
 
 
