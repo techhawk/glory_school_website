@@ -936,6 +936,54 @@ font-size: 55px;
 
 /* /////------------------------------------ABOUT US-------------------------------------------------------------/// */
 
+
+.about-banner{
+  width: 100%;
+  height: 300px;
+  background-image: url('../../assets/images/BannerImages/Banner\ Two.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about-banner::before{
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  background-color: rgba(0, 33, 71, 0.88);    background-color: #00000085;
+  height: 100%;
+  width: 100%;
+}
+
+.about-title{
+  position: relative;
+  text-align: left;
+}
+
+.about-title h2{
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 48px;
+  color: var(--tp-common-white);
+}
+
+.about-title ul{
+  list-style: none;
+  display: flex;
+  color: var(--tp-common-white);
+  gap: 5px;
+  padding: 0;
+}
+.about-title ul li a{
+  text-decoration: none;
+  color: var(--tp-bg-secondary);
+  padding-right: 5px;
+}
+
+
 .what-study-image{
   width: 558px;
   height: 358px;
