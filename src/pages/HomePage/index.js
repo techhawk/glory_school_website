@@ -114,7 +114,7 @@ const HomePage = () => {
         <Row>
           <Col md={12} className="p-0">
             <div className="school-video d-flex align-items-center justify-content-center mt-5 mb-5">
-              <div className="video-title z-1 text-center mt-5 pt-5">
+              <div className="video-title z-1 text-center mt-5">
                 <h2>Watch School Life Video Tour</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -122,7 +122,7 @@ const HomePage = () => {
                   assumenda, rem dolorem nesciunt a ipsam,
                 </p>
                 <div className="play-btn d-flex justify-content-center w-100">
-                  <button className="border-2 border-light rounded-circle bg-transparent"><a href="#"><FontAwesomeIcon icon={faPlay} /></a></button>
+                  <button className="border-2 border-light rounded-circle bg-transparent"><a href="http://www.youtube.com/watch?v=1iIZeIy7TqM"><FontAwesomeIcon icon={faPlay} /></a></button>
                 </div>
               </div>
             </div>
