@@ -18,6 +18,24 @@ const AboutUsPage = () => {
         <>
           
      <div className="article">
+     <Row>
+          <Col md={12} className="p-0">
+            <div className="about-banner">
+              <div className="container w-100 h-100">
+                <div className="about-title z-2 w-100 h-100 d-flex flex-column justify-content-center">
+                  <h2>About Us</h2>
+                  <ul>
+                    <li>
+                      <a href="/">Home</a>-
+                    </li>
+
+                    <li>Contact</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </Col>
+        </Row>
         <div className="container mt-5">
         <Row>
             <Col md ={6}>
