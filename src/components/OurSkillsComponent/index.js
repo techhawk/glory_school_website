@@ -56,7 +56,7 @@ const OurSkillsComponent = () => {
                             return (
                                 <>
 
-                                    <Col md={3}>
+                                    <Col md={6} lg={6} xl={3}>
                                         <div className="our-lecture-card mt-4">
                                             <div className="lecture-image mt-3">
                                                 <img src={value.image} alt="" />

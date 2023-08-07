@@ -36,7 +36,7 @@ const FooterComponent = () => {
            <div className="footer-part  pb-5">
             <div className="container pb-5 pt-5">
                 <Row>
-                    <Col md={3}>
+                    <Col md={6}  lg={6} xl={3} >
                         <div className="academics-details">
                             <div className="head-academics mt-3">
                                 <img src={Glorylogo} alt="" />
@@ -55,7 +55,7 @@ const FooterComponent = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col md={3}>
+                    <Col md={6} lg={6} xl={3}>
                         <div className="featured-details">
                             <div className="head-featured mt-3">
                                 <h2>Featured Links</h2>
@@ -77,7 +77,7 @@ const FooterComponent = () => {
                            
                         </div>
                     </Col>
-                    <Col md={3}>
+                    <Col md={6} lg={6} xl={3}>
                         <div className="information-details mt-3">
                             <div className="head-info">
                                 <h2>Information</h2>
@@ -101,35 +101,35 @@ const FooterComponent = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col md={3}>
+                    <Col md={6} lg={6} xl={3}>
                         <div className="flicks-photo-details mt-3">
                             <h2>Flicks Photo</h2>
                             <Row className="mt-3">
-                                <Col md={4}>
+                                <Col xs={4} sm={4} md={4} xl={4}>
                                     <div className="flicks-image">
                                         <img src={flicks1} alt="" />
                                     </div>
                                 </Col>
-                                <Col md={4}>
+                                <Col xs={4} sm={4} md={4}  xl={4}>
                                      <div className="flicks-image">
                                         <img src={flicks2} alt="" />
                                     </div></Col>
-                                <Col md={4}>
+                                <Col xs={4}  sm={4} md={4} xl={4}>
                                 <div className="flicks-image">
                                         <img src={flicks3} alt="" />
                                     </div>
                                 </Col>
-                                <Col md={4}>
+                                <Col xs={4} sm={4} md={4}  xl={4}>
                                 <div className="flicks-image">
                                         <img src={flicks4} alt="" />
                                     </div>
                                 </Col>
-                                <Col md={4}>
+                                <Col xs={4} sm={4} md={4}  xl={4}>
                                 <div className="flicks-image">
                                         <img src={flicks5} alt="" />
                                     </div>
                                 </Col>
-                                <Col md={4}>
+                                <Col xs={4} sm={4} md={4}  xl={4}>
                                 <div className="flicks-image">
                                         <img src={flicks6} alt="" />
                                     </div>
