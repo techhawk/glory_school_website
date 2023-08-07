@@ -122,7 +122,7 @@ const HomePage = () => {
                   assumenda, rem dolorem nesciunt a ipsam,
                 </p>
                 <div className="play-btn d-flex justify-content-center w-100">
-                  <button className="border-2 border-light rounded-circle bg-transparent"><a href="#"><FontAwesomeIcon icon={faPlay} /></a></button>
+                  <button className="border-2 border-light rounded-circle bg-transparent"><a href="http://www.youtube.com/watch?v=1iIZeIy7TqM"><FontAwesomeIcon icon={faPlay} /></a></button>
                 </div>
               </div>
             </div>

@@ -29,7 +29,7 @@ const AboutUsPage = () => {
                       <a href="/">Home</a>-
                     </li>
 
-                    <li>Contact</li>
+                    <li>About</li>
                   </ul>
                 </div>
               </div>
