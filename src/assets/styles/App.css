@@ -242,27 +242,7 @@ position: relative;
   color: var(--tp-bg-secondary);
 }
 
-@media screen and (max-width: 768px) {
-  
-  .responsive-header{
-    display: block;
-  }
 
-  .header-logos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .school-logo{
-    display: flex;
-    align-items: center;
-  }
-  
-  .header-content {
-    display: none;
-  }
-}
 
 
 
@@ -1292,4 +1272,361 @@ font-size: 55px;
 
 .footer-bottom{
   background-color: #001a39;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+  .responsive-header{
+    display: block;
+  }
+
+  .header-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .school-logo{
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-content {
+    display: none;
+  }
 }
