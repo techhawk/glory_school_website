@@ -38,7 +38,7 @@ const AboutUsPage = () => {
         </Row>
         <div className="container mt-5">
         <Row>
-            <Col md ={6}>
+            <Col md ={12} lg={12} xl={6}>
                 <div className="what-type">
                     <h2>Who We Are</h2>
                     <p>Tmply dummy text of the printing and typesetting indust Lorem Ipsum has been theindustry's standard dummy text ever since simply dummy text of the printing and etypesetting industry. Lorem Ipsum has been the induststandard dummy text ever since en an unknown printer took a galley of type scrambledmaining.</p>
@@ -48,7 +48,7 @@ const AboutUsPage = () => {
                     <p>Tmply dummy text of the printing and typesetting indust Lorem Ipsum has been theindustry's standard dummy text ever since simply dummy text of the printing and etypesetting industry. Lorem Ipsum has been the induststandard dummy text ever since en an unknown printer took a galley of type scrambledmaining.</p>
                 </div>
             </Col>
-            <Col md ={6}>
+            <Col md ={12} lg={12} xl={6}>
                 <div className="what-study-image">
                     <img src={Study} alt="" />
                 </div>
@@ -58,22 +58,22 @@ const AboutUsPage = () => {
 
          <div className="certificate mt-5 pt-3">
             <Row>
-                <Col md={3}>
+                <Col sm={6}  md={6} lg={6} xl={3}>
                     <div className="certificate-image">
                         <img src={Certificate1} alt="" />
                     </div>
                 </Col>
-                <Col md={3}>
+                <Col sm={6} md={6} lg={6} xl={3}>
                 <div className="certificate-image">
                         <img src={Certificate2} alt="" />
                     </div>
                 </Col>
-                <Col md={3}>
+                <Col sm={6}  md={6} lg={6} xl={3}>
                 <div className="certificate-image">
                         <img src={Certificate3} alt="" />
                     </div>
                 </Col>
-                <Col md={3}>
+                <Col sm={6}  md={6} lg={6} xl={3}>
                 <div className="certificate-image">
                         <img src={Certificate4} alt="" />
                     </div>
