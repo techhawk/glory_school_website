@@ -62,17 +62,18 @@ const FooterComponent = () => {
                             </div>
                             <div className="featured-all-link mt-3">
                                 <ul>
-                                    <li><a href="">Graduation</a></li>
-                                    <li><a href="">Admission</a></li>
-                                    <li><a href="">International</a></li>
-                                    <li><a href="">FAQs</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/about">About Us</a></li>
+                                    <li><a href="/contact">Contact Us</a></li>
+                                    <li><a href="/privacy">Privacy Policy</a></li>
+                                    <li><a href="term">Term & Condition</a></li>
                                 </ul>
-                                <ul className="ms-5">
+                                {/* <ul className="ms-5">
                                     <li><a href="">Courses</a></li>
                                     <li><a href="">abouts</a></li>
                                     <li><a href="">Book store</a></li>
                                     <li><a href="">alumni</a></li>
-                                </ul>
+                                </ul> */}
                             </div>
                            
                         </div>
@@ -149,12 +150,12 @@ const FooterComponent = () => {
              <div className="design-by mt-2">
                 <p>© 2017 Academics All Rights Reserved.   Designed By <a href="">Radius Theme</a> </p>
                 </div>
-                <div className="online-card">
+                {/* <div className="online-card">
                     <img src={payment1} alt="" />
                     <img src={payment2} alt="" />
                     <img src={payment3} alt="" />
                     <img src={payment4} alt="" />
-                </div>
+                </div> */}
                 </div>
             </div>
                 
