@@ -1,4 +1,5 @@
 import {
+  faCopyright,
   faEnvelope,
   faLocation,
   faMailBulk,
@@ -46,6 +47,7 @@ const ContactUsPage = () => {
                     icon={faMapMarker}
                     className="color-yellow fs-3"
                   />
+
                   <span>
                     73JC+R2W, KGN Chowk Rd, Nai Basti, Padma Nagar, Bhiwandi,
                     Maharashtra 421302
@@ -56,14 +58,17 @@ const ContactUsPage = () => {
                     icon={faPhone}
                     className="color-yellow fs-3"
                   />
-                  <span>02522 248 013</span>
+                  <span>
+                  <a href="tel:+91 99601 55518">+91 99601 55518</a>
+                  </span>
+
                 </div>
                 <div className="mail">
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     className="color-yellow fs-3"
                   />
-                  <span>gloryinfo@gmail.com</span>
+                  <span><a href="mailto:gloryschoolapp@gmail.com">gloryschoolapp@gmail.com</a></span>
                 </div>
               </div>
             </Col>
@@ -124,8 +129,8 @@ const ContactUsPage = () => {
             <Col md={12}>
               <div className="google-map-area">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d30127.689764209776!2d73.05754397608446!3d19.28405254596474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d19.295187!2d73.0579948!4m5!1s0x3be7bd9c0272cef5%3A0xb8fcf9ecb57fdfbc!2sglory%20english%20high%20school%20email%20id!3m2!1d19.2821112!2d73.07004859999999!5e0!3m2!1sen!2sin!4v1691240651144!5m2!1sen!2sin"
-        
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.0056168522883!2d73.06750547532063!3d19.282121945469086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bd9c0272cef5%3A0xb8fcf9ecb57fdfbc!2sGlory%20English%20High%20School!5e0!3m2!1sen!2sin!4v1692006629729!5m2!1sen!2sin"
+
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"

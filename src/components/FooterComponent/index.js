@@ -65,7 +65,7 @@ const FooterComponent = () => {
                                     <li><a href="/">Home</a></li>
                                     <li><a href="/about">About Us</a></li>
                                     <li><a href="/contact">Contact Us</a></li>
-                                    <li><a href="/privacy">Privacy Policy</a></li>
+                                    <li><a href="/privacypolicy">Privacy Policy</a></li>
                                     <li><a href="term">Term & Condition</a></li>
                                 </ul>
                                 {/* <ul className="ms-5">
@@ -86,11 +86,11 @@ const FooterComponent = () => {
                             <div className="info-call-email">
                                 <div className="info-phone">
                                     <img src={Phone} alt="" />
-                                    <a href="">(01) 800 433 633</a>
+                                    <a href="tel:+91 99601 55518">+91 99601 55518</a>
                                 </div>
                                 <div className="info-msg">
                                     <img src={Message} alt="" />
-                                    <a href="">info@bostonea.com</a>
+                                    <a href="mailto:gloryschoolapp@gmail.com">gloryschoolapp@gmail.com</a>
                                 </div>
                             </div>
                             <div className="new-letter-info mt-4">

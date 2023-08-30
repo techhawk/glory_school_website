@@ -8,6 +8,7 @@ import AboutUsPage from "./pages/AboutUsPage";
 import ContactUsPage from "./pages/ContactUsPage";
 import HeaderComponent from "./components/HeaderComponent";
 import FooterComponent from "./components/FooterComponent";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 
 
@@ -34,7 +35,9 @@ function App() {
               <Route path='/menu' element={<MenuPage />} />
               <Route path='/services' element={<ServicesPage />} />
               <Route path='/about' element={<AboutUsPage />} />
-              <Route path='/contact' element={<ContactUsPage />} />
+              <Route path='/contact' element={<ContactUsPage />} />              
+              <Route path='/privacypolicy' element={<PrivacyPolicyPage />} />              
+
             </Routes>
           </div>
        {/* //-----------------FOOTER---------------------------/// */}
