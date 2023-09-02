@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1de8d7d4.css",
-    "main.js": "/static/js/main.201909dd.js",
+    "main.js": "/static/js/main.c4ecd89e.js",
     "static/js/787.1b4ce405.chunk.js": "/static/js/787.1b4ce405.chunk.js",
     "static/media/Desktop.jpg": "/static/media/Desktop.b0ab742497cadc13d442.jpg",
     "static/media/GolryEnglishSchoolBhiwandi-12.JPG": "/static/media/GolryEnglishSchoolBhiwandi-12.c96f52e2df4a571c2148.JPG",
@@ -34,11 +34,11 @@
     "static/media/send-message-dm-svgrepo-com (1).svg": "/static/media/send-message-dm-svgrepo-com (1).2904b330de7a787b396ba0e5308616e0.svg",
     "static/media/facebook.svg": "/static/media/facebook.c6497cfad44bf6d8daaf64b0948540de.svg",
     "main.1de8d7d4.css.map": "/static/css/main.1de8d7d4.css.map",
-    "main.201909dd.js.map": "/static/js/main.201909dd.js.map",
+    "main.c4ecd89e.js.map": "/static/js/main.c4ecd89e.js.map",
     "787.1b4ce405.chunk.js.map": "/static/js/787.1b4ce405.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1de8d7d4.css",
-    "static/js/main.201909dd.js"
+    "static/js/main.c4ecd89e.js"
   ]
 }
