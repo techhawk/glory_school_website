@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import BannerOne from "../../assets/images/BannerImages/Banner One.jpg";
-import BannerTwo from "../../assets/images/BannerImages/Banner Two.jpg";
-import BannerThree from "../../assets/images/BannerImages/Banner three.jpg";
-import BannerFour from '../../assets/images/BannerImages/1.jpg'
+import BannerOne from "../../assets/images/BannerImages/GolryEnglishSchoolBhiwandi-1.JPG";
+import BannerTwo from "../../assets/images/BannerImages/GolryEnglishSchoolBhiwandi-2.JPG";
+import BannerThree from "../../assets/images/BannerImages/GolryEnglishSchoolBhiwandi-3.JPG";
+import BannerFour from "../../assets/images/BannerImages/GolryEnglishSchoolBhiwandi-8.JPG";
 import { Carousel, Col, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
@@ -122,7 +122,11 @@ const HomePage = () => {
                   assumenda, rem dolorem nesciunt a ipsam,
                 </p>
                 <div className="play-btn d-flex justify-content-center w-100">
-                  <button className="border-2 border-light rounded-circle bg-transparent"><a href="http://www.youtube.com/watch?v=1iIZeIy7TqM"><FontAwesomeIcon icon={faPlay} /></a></button>
+                  <button className="border-2 border-light rounded-circle bg-transparent">
+                    <a href="http://www.youtube.com/watch?v=1iIZeIy7TqM">
+                      <FontAwesomeIcon icon={faPlay} />
+                    </a>
+                  </button>
                 </div>
               </div>
             </div>
