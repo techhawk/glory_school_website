@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import SchoolLogo from "../../assets/images/png/gloryenglishhighschoolicon128.png";
 import Hamburger from "../../assets/images/svg/hamburger-menu-svgrepo-com.svg";
 
@@ -22,14 +22,14 @@ const HeaderComponent = () => {
             </div>
             <div className="navbar">
               <ul>
-                <li className="active">
-                  <Link to={"/"}>Home</Link>
+                <li>
+                  <NavLink to={"/"}>Home</NavLink>
                 </li>
                 <li>
-                  <Link to={"/about"}>About</Link>
+                  <NavLink to={"/about"}>About</NavLink>
                 </li>
                 <li>
-                  <Link to={"/contact"}>Contact Us</Link>
+                  <NavLink to={"/contact"}>Contact Us</NavLink>
                 </li>
               </ul>
             </div>

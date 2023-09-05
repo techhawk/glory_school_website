@@ -25,6 +25,7 @@ import payment1 from "../../assets/images/payement/payment-method1.jpg";
 import payment2 from "../../assets/images/payement/payment-method2.jpg";
 import payment3 from "../../assets/images/payement/payment-method3.jpg";
 import payment4 from "../../assets/images/payement/payment-method4.jpg";
+import { NavLink } from "react-router-dom";
 
 const FooterComponent = () => {
   return (
@@ -63,19 +64,19 @@ const FooterComponent = () => {
                 <div className="featured-all-link mt-3">
                   <ul>
                     <li>
-                      <a href="/">Home</a>
+                      <NavLink to={"/"}>Home</NavLink>
                     </li>
                     <li>
-                      <a href="/about">About Us</a>
+                      <NavLink to={"/about"}>About Us</NavLink>
                     </li>
                     <li>
-                      <a href="/contact">Contact Us</a>
+                      <NavLink to={"/contact"}>Contact Us</NavLink>
                     </li>
                     <li>
-                      <a href="/privacypolicy">Privacy Policy</a>
+                      <NavLink to={"/privacypolicy"}>Privacy Policy</NavLink>
                     </li>
                     <li>
-                      <a href="term">Term & Condition</a>
+                      <NavLink to={"term"}>Term & Condition</NavLink>
                     </li>
                   </ul>
                   {/* <ul className="ms-5">
@@ -161,8 +162,8 @@ const FooterComponent = () => {
           <div className="reversed-part">
             <div className="design-by mt-2">
               <p>
-                © 2017 Academics All Rights Reserved. Designed By{" "}
-                <a href="">Radius Theme</a>{" "}
+                © 2023 Glory English High School All Rights Reserved. Designed
+                By <a href="">TechHawk</a>{" "}
               </p>
             </div>
             {/* <div className="online-card">

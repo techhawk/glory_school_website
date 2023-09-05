@@ -1,6 +1,6 @@
 import React from "react";
 import "./assets/styles/App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import MenuPage from "./pages/MenuPage";
 import ServicesPage from "./pages/ServicesPage";

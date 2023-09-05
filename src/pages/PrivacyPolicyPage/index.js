@@ -117,8 +117,8 @@ const PrivacyPolicyPage = () => {
                       regulations.
                     </li>
                     <li>
-                      <span>Account Information:</span> Users are responsible for
-                      maintaining the confidentiality of their account
+                      <span>Account Information:</span> Users are responsible
+                      for maintaining the confidentiality of their account
                       credentials.
                     </li>
                   </ul>
@@ -180,9 +180,9 @@ const PrivacyPolicyPage = () => {
                   <h3>Termination:</h3>
                   <ul>
                     <li>
-                      <span>Termination:</span> We reserve the right to terminate
-                      or suspend access to the App for users who violate these
-                      Terms or school policies.
+                      <span>Termination:</span> We reserve the right to
+                      terminate or suspend access to the App for users who
+                      violate these Terms or school policies.
                     </li>
                   </ul>
                 </div>
@@ -201,12 +201,13 @@ const PrivacyPolicyPage = () => {
                     <li>
                       <span>Jurisdiction:</span> These Terms are governed by the
                       laws of India. Any disputes shall be subject to the
-                      exclusive jurisdiction of the courts in [Your City].
+                      exclusive jurisdiction of the courts in Bhiwandi.
                     </li>
                   </ul>
                   <p>
                     If you have any questions about these documents, please
-                    contact us at [school contact information].
+                    contact us at Mob: +91 99601 55518, Email:
+                    gloryschoolapp@gmail.com.
                   </p>
                 </div>
               </div>
