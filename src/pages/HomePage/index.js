@@ -32,10 +32,8 @@ const HomePage = () => {
                 <div className="banner-text">
                   <h3>GLORY SCHOOL</h3>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Aliquam, vero? Architecto optio libero cumque consectetur
-                    unde cum a. Nam commodi qui corporis tempore iure fuga amet
-                    veritatis dolore pariatur corrupti?
+                    We believe in the transformative power of education and its
+                    ability to shape a brighter future for our students.
                   </p>
                   <div className="add-btn d-flex justify-content-center w-100 mt-4 mb-5">
                     <button>ADDMISSION HERE</button>
@@ -56,10 +54,8 @@ const HomePage = () => {
                 <div className="banner-text">
                   <h3>GLORY SCHOOL</h3>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea
-                    sed veritatis nam numquam necessitatibus sapiente voluptate
-                    beatae, reiciendis consequatur odio quisquam corporis autem
-                    nostrum quo quaerat dignissimos neque asperiores nisi.
+                    We uphold the highest standards of integrity, ethics, and
+                    honesty in all our interactions.
                   </p>
                   <div className="add-btn d-flex justify-content-center w-100 mt-4 mb-5">
                     <button>ADDMISSION HERE</button>
@@ -80,10 +76,8 @@ const HomePage = () => {
                 <div className="banner-text">
                   <h3>GLORY SCHOOL</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aspernatur debitis eum blanditiis sit minus illum veniam
-                    minima quasi adipisci voluptas, modi nulla animi consectetur
-                    placeat inventore rerum deleniti in magni?
+                    We embrace diversity and inclusivity, ensuring that every
+                    student feels valued and supported.
                   </p>
                   <div className="add-btn d-flex justify-content-center w-100 mt-4 mb-5">
                     <button>ADDMISSION HERE</button>
@@ -100,9 +94,11 @@ const HomePage = () => {
               <div className="heading text-center">
                 <h2>Welcome to Glory English High School</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                  ducimus doloribus ut quidem in magnam veniam <br /> animi sunt
-                  assumenda, rem dolorem nesciunt a ipsam,
+                  At Glory English High School, our journey of educational
+                  excellence began in 1989 in the vibrant city of Bhiwandi. With
+                  a rich history spanning over three decades, we have dedicated
+                  ourselves to providing quality education and nurturing the
+                  minds of countless students.
                 </p>
               </div>
               <div className="acadamy-img d-flex justify-content-center mt-5">
@@ -117,9 +113,11 @@ const HomePage = () => {
               <div className="video-title z-1 text-center mt-5">
                 <h2>Watch School Life Video Tour</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                  ducimus doloribus ut quidem in magnam veniam <br /> animi sunt
-                  assumenda, rem dolorem nesciunt a ipsam,
+                  We believe in the importance of a strong partnership between
+                  parents and teachers. Open communication and active
+                  <br />
+                  involvement of parents are integral to a student's success,
+                  and we cherish this collaborative spirit.
                 </p>
                 <div className="play-btn d-flex justify-content-center w-100">
                   <button className="border-2 border-light rounded-circle bg-transparent">

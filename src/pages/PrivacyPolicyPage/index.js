@@ -26,28 +26,70 @@ const PrivacyPolicyPage = () => {
                 </div>
                 <div className="policy-details">
                   <div className="policy mb-4">
-                    <h3>Information We Collected:</h3>
+                    <h3>Information We Collect:</h3>
                     <ul>
                       <li>
-                        <span>Student Information:</span> We may collect
-                        personal information such as student names, class
-                        details, and attendance records when students and
-                        parents use the App.
+                        <span>Information We Collect :</span> We do not collect
+                        any personal information from our users. The app
+                        operates without requiring users to provide personal
+                        data, and no signup process is involved.
                       </li>
                       <li>
-                        <span>Usage Information:</span> We may collect
-                        information about how users interact with the App,
-                        including homework submissions and notices viewed.
+                        <span>How We Use Your Information:</span> As we do not
+                        collect personal information, we do not use any data for
+                        any purpose beyond the functionality of the app. The
+                        primary purpose of the app is to facilitate
+                        communication between parents and the school. Any login
+                        credentials are provided to parents by the school
+                        administration and are used solely for accessing the
+                        app.
                       </li>
                       <li>
-                        <span>Device Information:</span> We may collect
-                        information about the devices used to access the App,
-                        such as device type and operating system.
+                        <span>Data Security :</span> The security of your data
+                        is important to us. We have implemented appropriate
+                        technical and organizational measures to protect the
+                        information we do not collect from unauthorized access,
+                        disclosure, alteration, or destruction.
+                      </li>
+                      <li>
+                        <span>AChildren's Privacy:</span> Our app is intended
+                        for use by parents and does not target or knowingly
+                        collect information from children under the age of 13.
+                        If you believe that we may have inadvertently collected
+                        information from a child under 13, please contact us
+                        immediately, and we will take appropriate steps to
+                        delete such information.
+                      </li>
+                      <li>
+                        <span>Access Permissions :</span> The "Glory English
+                        School" app doesn't request any permissions, such as
+                        camera, storage, or location services. app do not
+                        involve in the collection or transmission of personal
+                        data.
+                      </li>
+                      <li>
+                        <span>Data Retention:</span> We do not retain any
+                        personal data within the app. Any login credentials
+                        provided by the school administration are used only for
+                        the purpose of app access and are not stored within the
+                        app.
+                      </li>
+                      <li>
+                        <span>Third-Party Services:</span> Our app may include
+                        links to external websites or services that are not
+                        operated by us. We are not responsible for the content
+                        or privacy practices of these third-party websites or
+                        services. We encourage you to review the privacy
+                        policies of any third-party sites or services before
+                        providing any personal information.
                       </li>
                     </ul>
                   </div>
                   <div className="policy mb-4">
-                    <h3>How We Use Your Information:</h3>
+                    <h3>
+                      How We Use Your Information (Information that is present
+                      at school when student taken the adminssion):
+                    </h3>
                     <p>
                       We may use the information we collect for purposes
                       including:
@@ -66,7 +108,11 @@ const PrivacyPolicyPage = () => {
                   </div>
                   <div className="policy mb-4">
                     <h3>Sharing of Your Information:</h3>
-                    <p>We may share student information with:</p>
+                    <p>
+                      We may share student information with (This information is
+                      collected by admin in person or by physical form, App
+                      doesn't collect any data):
+                    </p>
                     <ul>
                       <li>
                         School administrators and teachers for educational and
@@ -93,8 +139,11 @@ const PrivacyPolicyPage = () => {
                   <div className="policy mb-5">
                     <h3>Your Choices:</h3>
                     <p>
-                      Parents and students can update account information and
-                      communication preferences within the App.
+                      As we do not collect personal data, you do not have the
+                      option to edit or delete any personal information within
+                      the app. If you have concerns about the login credentials
+                      provided to you, please contact the school administration
+                      for assistance.
                     </p>
                   </div>
                 </div>
@@ -138,18 +187,7 @@ const PrivacyPolicyPage = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="terms mb-4">
-                  <h3>Privacy:</h3>
-                  <ul>
-                    <li>
-                      <span>Data Collection:</span> We collect and process
-                      personal information as described in our Privacy Policy.
-                      By using the App, you consent to the collection,
-                      processing, and sharing of information as outlined in the
-                      Privacy Policy.
-                    </li>
-                  </ul>
-                </div>
+                <div className="terms mb-4"></div>
                 <div className="terms mb-4">
                   <h3>Disclaimer:</h3>
                   <ul>

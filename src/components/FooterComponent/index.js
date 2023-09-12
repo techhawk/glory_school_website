@@ -41,9 +41,8 @@ const FooterComponent = () => {
                 </div>
                 <div className="academics-info mt-3">
                   <p>
-                    Praesent vel rutrum purus. Nam vel dui eu sus duis dignissim
-                    dignissim. Suspenetey disse at ros tecongueconsequat.Fusce
-                    sit amet rna feugiat.
+                    Education is not the filling of a pail, but the lighting of
+                    a fire.
                   </p>
                 </div>
                 <div className="socail-contact-footer mt-5">

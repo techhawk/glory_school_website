@@ -37,22 +37,33 @@ const AboutUsPage = () => {
             <Col md={12} lg={12} xl={6}>
               <div className="what-type">
                 <h2>Who We Are</h2>
+                <h4> Established in 1989 in Bhiwandi, India</h4>
                 <p>
-                  Tmply dummy text of the printing and typesetting indust Lorem
-                  Ipsum has been theindustry's standard dummy text ever since
-                  simply dummy text of the printing and etypesetting industry.
-                  Lorem Ipsum has been the induststandard dummy text ever since
-                  en an unknown printer took a galley of type scrambledmaining.
+                  At Glory English High School, our journey of educational
+                  excellence began in 1989 in the vibrant city of Bhiwandi. With
+                  a rich history spanning over three decades, we have dedicated
+                  ourselves to providing quality education and nurturing the
+                  minds of countless students.
                 </p>
               </div>
               <div className="what-type mt-5">
-                <h2>What We do</h2>
+                <h2>Our Mission</h2>
                 <p>
-                  Tmply dummy text of the printing and typesetting indust Lorem
-                  Ipsum has been theindustry's standard dummy text ever since
-                  simply dummy text of the printing and etypesetting industry.
-                  Lorem Ipsum has been the induststandard dummy text ever since
-                  en an unknown printer took a galley of type scrambledmaining.
+                  Over the years, we have established a tradition of academic
+                  excellence, fostering holistic development, and nurturing a
+                  love for learning. Our dedicated faculty, state-of-the-art
+                  facilities, and innovative teaching methods contribute to our
+                  continued success.
+                </p>
+              </div>
+              <div className="what-type mt-5">
+                <h2>A Tradition of Excellence</h2>
+                <p>
+                  Our mission is simple yet profound: to empower students with
+                  knowledge, instill values, and inspire them to reach their
+                  full potential. We believe that every child is unique, and our
+                  commitment is to create an inclusive and nurturing environment
+                  where they can thrive academically, socially, and personally.
                 </p>
               </div>
             </Col>
