@@ -16,10 +16,12 @@ const HeaderComponent = () => {
       <div className="main-container">
         <div className="header-content">
           <div className="container header-container align-items-center d-flex justify-content-between">
+            <Link to={"/"} >
             <div className="school-logo d-flex align-items-center">
               <img src={SchoolLogo} alt="" />
               <h2>Glory English High School</h2>
             </div>
+            </Link>
             <div className="navbar">
               <ul>
                 <li>

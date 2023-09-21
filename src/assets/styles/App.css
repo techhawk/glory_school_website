@@ -62,6 +62,13 @@ body {
 
 /* /////////////////HEADER//////////////////// */
 
+.navbar .active{
+  color: var(--tp-bg-secondary);
+}
+.header-content a{
+  text-decoration: none;
+}
+
 .header-content {
   background-color: var(--tp-bg-primary);
 }
